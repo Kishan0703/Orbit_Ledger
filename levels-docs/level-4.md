@@ -72,8 +72,16 @@ An automated Continuous Integration and Deployment pipeline was established via 
 
 **Beautiful Mobile Responsive View:**  
 
-<img width="603" height="882" alt="Mobile Dashboard View" src="/Users/kishan/projects/stellar_pay/assets/mobile_responsive.png" />
+<p align="center">
+  <img width="360" alt="Mobile Dashboard View" src="../assets/mobile_responsive.png" />
+</p>
 
+**CI/CD Pipeline Passing Details:**  
+[![CI Status](https://github.com/Kishan0703/Orbit_Ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/Kishan0703/Orbit_Ledger/actions)
+
+<p align="center">
+  <img width="900" alt="GitHub Actions Pipeline" src="../assets/image%20copy%202.png" />
+</p>
 
 ---
 

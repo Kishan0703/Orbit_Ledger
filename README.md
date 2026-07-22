@@ -4,25 +4,11 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Soroban](https://img.shields.io/badge/Smart%20Contract-Soroban-FF6B35?style=flat-square&logo=stellar&logoColor=white)
 ![Deployed](https://img.shields.io/badge/Deployed-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-[![CI Status](https://github.com/yashannadate/orbit-ledger-whitebelt/actions/workflows/ci.yml/badge.svg)](https://github.com/yashannadate/orbit-ledger-whitebelt/actions)
+[![CI Status](https://github.com/Kishan0703/Orbit_Ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/Kishan0703/Orbit_Ledger/actions)
 
 > On-Chain Payroll Infrastructure powered by Soroban Smart Contracts on Stellar Testnet.
 
 Orbit Ledger is a progressive dApp built across multiple levels of the Stellar Builder Track. It started as a minimal XLM payment interface and has grown level by level into a fully deployed, production-grade multi-signature treasury system. Each level introduced new infrastructure, new smart contract capabilities, and a higher standard of user experience. The result is a complete on-chain payroll application — with wallet integration, Soroban-powered governance, live price feeds, balance caching, comprehensive test coverage, and a public Vercel deployment — all running on Stellar Testnet.
-
----
-
-## 🔴 Live Demo
-
-**[https://orbit-ledger-app.vercel.app/](https://orbit-ledger-app.vercel.app/)**
-
----
-
-## 🎥 Demo Video
-
-**[Watch 1-Minute Demo](https://drive.google.com/file/d/1g_jVt3vx0t-tRuzgm6CmuiPyOul5e0JI/view?usp=drivesdk)**
-
----
 
 ## 🚀 Belt Progression
 
@@ -146,7 +132,7 @@ A comprehensive on-chain execution history table showing who was paid, how much,
 
 **CI/CD Pipeline**
 
-[![CI Status](https://github.com/yashannadate/orbit-ledger-whitebelt/actions/workflows/ci.yml/badge.svg)](https://github.com/yashannadate/orbit-ledger-whitebelt/actions)
+[![CI Status](https://github.com/Kishan0703/Orbit_Ledger/actions/workflows/ci.yml/badge.svg)](https://github.com/Kishan0703/Orbit_Ledger/actions)
 
 On every push to `main`, GitHub Actions automatically:
 - ✅ Builds the Vite frontend production bundle
@@ -159,10 +145,14 @@ Fully optimized for all screen sizes via CSS media queries — flawless experien
 ### 📸 Level 4:
 
 **Mobile Responsive View:**  
-<img width="603" height="882" alt="image" src="https://github.com/user-attachments/assets/c241a1e2-0bae-4833-b351-4764de3079b9" />
+<p align="center">
+  <img width="360" alt="Orbit Ledger mobile responsive dashboard" src="assets/mobile_responsive.png" />
+</p>
 
 **CI/CD Pipeline Success:**  
-<img width="1919" height="764" alt="image" src="https://github.com/user-attachments/assets/fa38cf9c-2b8e-4943-bd36-ee8b94fa657b" />
+<p align="center">
+  <img width="900" alt="Orbit Ledger GitHub Actions pipeline success" src="assets/image%20copy%202.png" />
+</p>
 
 
 [View Full Level 4 Documentation →](levels-docs/level-4.md)
@@ -178,6 +168,22 @@ Fully optimized for all screen sizes via CSS media queries — flawless experien
 
 ---
 
+## 🌐 Experience the App
+
+<p align="center">
+  <a href="https://orbit-ledger-app.vercel.app/">
+    <img alt="Open Live Demo" src="https://img.shields.io/badge/Open-Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://drive.google.com/file/d/1g_jVt3vx0t-tRuzgm6CmuiPyOul5e0JI/view?usp=drivesdk">
+    <img alt="Watch Demo Video" src="https://img.shields.io/badge/Watch-Demo%20Video-6C47FF?style=for-the-badge&logo=google-drive&logoColor=white" />
+  </a>
+</p>
+
+Orbit Ledger is deployed on Vercel for quick review, and the short demo video walks through the wallet connection, treasury workflow, approval flow, and final transaction proof.
+
+---
+
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
@@ -190,8 +196,8 @@ Fully optimized for all screen sizes via CSS media queries — flawless experien
 ### Run Locally
 ```bash
 # Clone the repository
-git clone https://github.com/yashannadate/orbit-ledger-whitebelt.git
-cd orbit-ledger-whitebelt
+git clone https://github.com/Kishan0703/Orbit_Ledger.git
+cd Orbit_Ledger
 
 # Install dependencies
 npm install
