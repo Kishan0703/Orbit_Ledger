@@ -31,7 +31,7 @@ Orbit Ledger is a progressive dApp built across multiple levels of the Stellar B
 | ⚪ White Belt | ✅ Completed | [Level 1 →](levels-docs/level-1.md) |
 | 🟡 Yellow Belt | ✅ Completed | [Level 2 →](levels-docs/level-2.md) |
 | 🟠 Orange Belt | ✅ Completed | [Level 3 →](levels-docs/level-3.md) |
-| 🟢 Green Belt | ✅ Completed | [Level 4 →](levels-docs/level-4.md) |
+| 🟢 Green Belt | ✅ Completed | Included in project summary |
 
 ---
 
@@ -115,48 +115,9 @@ Publicly accessible at [https://orbit-ledger-app.vercel.app/](https://orbit-ledg
 
 ---
 
-## 🟢 Level 4 — Green Belt
-
-### Overview
-Level 4 is the final production-ready polish of the application. It introduces advanced Soroban contract patterns with **inter-contract calls**, a **custom SPAY Token**, full **mobile responsiveness**, comprehensive **analytics**, and automated **CI/CD pipelines**. The application is now a complete, scalable, and fully tested Web3 product.
-
-### Advanced Contract Patterns
-
-**Inter-Contract Calls & Custom Token**
-A new custom Soroban token contract (SPAY Token) was deployed. The Treasury contract was upgraded to include an inter-contract call: whenever a payroll proposal is executed, the Treasury contract securely invokes the SPAY token's `mint()` function to issue 1 SPAY token to each paid employee automatically — all in a single transaction.
-
-**SPAY Token Contract implements:**
-- `mint()` — restricted to Treasury contract address only
-- `balance()` — query any wallet's SPAY balance
-- `total_supply()` — query total SPAY tokens minted
-
-### Frontend Features
-
-**Advanced Dashboard & Analytics**
-
-| Metric | Description |
-|---|---|
-| **Total Paid (XLM)** | Sum of all XLM successfully distributed |
-| **Total Proposals** | Count of all executed payroll transactions |
-| **SPAY Minted** | Total SPAY tokens earned by employees |
-| **Active Employees** | Number of unique wallet addresses paid |
-
-**Payroll History & CSV Export**
-A comprehensive on-chain execution history table showing who was paid, how much, when, and with clickable StellarExpert transaction hash links. Full data export via 1-click CSV Export.
-
-**CI/CD Pipeline**
-
-[![CI Status](https://github.com/yashannadate/orbit-ledger-whitebelt/actions/workflows/ci.yml/badge.svg)](https://github.com/yashannadate/orbit-ledger-whitebelt/actions)
-
-On every push to `main`, GitHub Actions automatically:
-- ✅ Builds the Vite frontend production bundle
-- ✅ Runs `cargo test` on the Treasury contract (4 tests)
-- ✅ Runs `cargo test` on the SPAY Token contract (5 tests)
-
 **Mobile Responsive Design**
 Fully optimized for all screen sizes via CSS media queries — flawless experience on desktop, tablet, and mobile.
 
-### 📸 Level 4:
 
 **Mobile Responsive View:**  
 <img width="603" height="882" alt="image" src="assets/mobile_responsive.png" />
@@ -164,10 +125,6 @@ Fully optimized for all screen sizes via CSS media queries — flawless experien
 **CI/CD Pipeline Success:**  
 <img width="1919" height="764" alt="image" src="assets/image copy 2.png" />
 
-
-[View Full Level 4 Documentation →](levels-docs/level-4.md)
-
----
 
 ## 📝 Soroban Contracts
 
