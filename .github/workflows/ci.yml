@@ -43,8 +43,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Rust toolchain (stable + wasm32)
-        uses: dtolnay/rust-toolchain@stable
+      - name: Install Rust toolchain (1.85.1 + wasm32)
+        uses: dtolnay/rust-toolchain@1.85.1
         with:
           targets: wasm32-unknown-unknown
 
