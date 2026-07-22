@@ -174,4 +174,4 @@ npm run dev
 ---
 
 <p align="center">Built with 🤍 for the RiseIn Stellar Journey to Mastery 2026</p>
-<p align="center">⚪ White → 🟡 Yellow → 🟠 Orange → 🟢 Green Belt Complete</p>
+<p align="center">⚪ White → 🟡 Yellow → 🟠 Orange</p>
