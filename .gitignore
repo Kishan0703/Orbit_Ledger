@@ -27,3 +27,8 @@ dist-ssr
 contracts/*/src/target
 .vercel
 .env*.local
+
+# Local documentation proof captures
+assets/level-4-*.png
+assets/green-belt-*.png
+assets/*proof*.png

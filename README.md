@@ -142,19 +142,6 @@ On every push to `main`, GitHub Actions automatically:
 **Mobile Responsive Design**
 Fully optimized for all screen sizes via CSS media queries — flawless experience on desktop, tablet, and mobile.
 
-### 📸 Level 4:
-
-**Mobile Responsive View:**  
-<p align="center">
-  <img width="360" alt="Orbit Ledger mobile responsive dashboard" src="assets/mobile_responsive.png" />
-</p>
-
-**CI/CD Pipeline Success:**  
-<p align="center">
-  <img width="900" alt="Orbit Ledger GitHub Actions pipeline success" src="assets/image%20copy%202.png" />
-</p>
-
-
 [View Full Level 4 Documentation →](levels-docs/level-4.md)
 
 ---
